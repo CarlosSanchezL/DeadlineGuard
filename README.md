@@ -1,32 +1,104 @@
 # DeadlineGuard
 
-A responsive student assignment planner built with HTML, CSS, and vanilla JavaScript. No backend or paid hosting required.
+**A simple website to help university students stay organized and never miss an assignment.**
+
+## Live Website
+
+**[Click here to open DeadlineGuard](https://carlossanchezl.github.io/DeadlineGuard/)**
+
+## About the Project
+
+DeadlineGuard is a website designed to help university students organize their homework, projects, exams, and assignments in one place.
+
+University students often have multiple classes with different deadlines, making it difficult to remember everything and decide which assignment to complete first.
+
+DeadlineGuard helps solve this problem by providing a simple platform where students can manage their assignments, organize their schedules, and track their progress.
 
 ## Features
-- Add, edit, delete, and complete assignments
-- Assign a class, due date, priority, and notes
-- Automatically identify overdue and due-soon tasks
-- Search, filter, and sort assignments
-- Monthly calendar and completion dashboard
-- Dark/light mode
-- Saves assignments using browser localStorage
 
-## Publish on GitHub Pages
-1. Create a new **public** repository named `DeadlineGuard` on GitHub.
-2. Upload `index.html`, `style.css`, and `script.js` to the **root** of the repository (not inside an extra folder).
-3. Open repository **Settings → Pages**.
-4. Under **Build and deployment**, choose **Deploy from a branch**.
-5. Select **main** and **/(root)**, then click **Save**.
-6. Your site will be available at `[https://YOUR-USERNAME.github.io/DeadlineGuard/](https://carlossanchezl.github.io/DeadlineGuard/)` after deployment.
+- **Dashboard:** View upcoming deadlines, pending assignments, and completed tasks.
+- **Add Assignments:** Create new tasks with a name, class, deadline, and priority.
+- **Task Management:** Edit, delete, and mark assignments as completed.
+- **Calendar:** See upcoming assignments and important deadlines.
+- **Smart Priorities:** Identify urgent and overdue assignments.
+- **Progress Tracker:** Track completed and pending assignments.
+- **Dark and Light Mode:** Switch between different website themes.
+- **Local Storage:** Save assignments in the browser without creating an account.
+- **Responsive Design:** Use the website on computers, tablets, and phones.
 
-## Run locally
-Open `index.html` in your browser, or use VS Code Live Server.
+## The Problem
 
-## Important limitations
-- Data is stored **only in the browser on that device**; it does not sync across devices or accounts.
-- Clearing browser site data or using private browsing can remove saved tasks.
-- "Due soon" is an on-screen indicator, **not** a push notification. The browser does not send automatic reminders while the site is closed.
-- This prototype does not use an AI model or server.
+Many university students struggle to organize assignments from different classes. This can lead to forgotten homework, missed deadlines, stress, and poor time management.
 
-## User testing for the class project
-Ask at least three students to: (1) add an assignment, (2) find the next deadline, (3) mark a task completed, and (4) use the calendar. Record whether each task was completed, the time taken, and feedback. Use real findings to plan V2.
+## The Solution
+
+DeadlineGuard provides a simple digital tool where students can organize their assignments by class, deadline, and priority.
+
+Instead of checking different platforms or writing everything down, students can manage their academic responsibilities in one place.
+
+## Target Users
+
+DeadlineGuard is designed for university students who want to improve their organization, manage their time, and keep track of their academic responsibilities.
+
+## Technologies Used
+
+- **HTML5:** Website structure.
+- **CSS3:** Website design and responsive layout.
+- **JavaScript:** Interactive features and task management.
+- **LocalStorage:** Saves assignments directly in the user's browser.
+- **GitHub Pages:** Free website hosting.
+
+## How to Use DeadlineGuard
+
+1. Open the website using the link above.
+2. Go to the dashboard to view your assignments.
+3. Click **Add Assignment** to create a new task.
+4. Enter the assignment name, class, deadline, and priority.
+5. Save your assignment.
+6. Check the calendar to see upcoming deadlines.
+7. Mark assignments as completed when you finish them.
+8. Track your progress through the dashboard.
+
+## Project Objective
+
+The main goal of DeadlineGuard is to help university students manage their time more effectively, stay organized, and avoid forgetting important assignments.
+
+The project also aims to reduce the stress of managing multiple classes and deadlines.
+
+## Prototype and Validation
+
+DeadlineGuard was developed as a personal entrepreneurship project.
+
+The first version focuses on creating a simple and functional website that students can use to organize their assignments.
+
+The next step is to test the website with real university students, collect their feedback, identify possible improvements, and develop an updated version.
+
+## Future Improvements
+
+- Email and browser notifications.
+- User accounts.
+- Synchronization between devices.
+- Google Calendar integration.
+- Additional assignment organization features.
+
+## Project Status
+
+**Version 1 — Initial Prototype**
+
+The website has been created and published using GitHub Pages. Further improvements will be based on user feedback and testing.
+
+## Website
+
+**[Open DeadlineGuard](https://carlossanchezl.github.io/DeadlineGuard/)**
+
+## Author
+
+**CarlosSanchezL**
+
+Computer Science Student
+
+GitHub: [CarlosSanchezL](https://github.com/CarlosSanchezL)
+
+---
+
+*DeadlineGuard — Organize your tasks, manage your time, and stay ahead of your deadlines.*
